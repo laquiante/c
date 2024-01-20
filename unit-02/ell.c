@@ -15,23 +15,29 @@ int main(int argc, char *argv[]){
     
     */
 
+
     LISTITEM *listhead, *temp;
     listhead = NULL;
 
     // befüllen
-    for (int i=0;i<3;i++) {
+    for (int i=0;i<5;i++) {
         temp = malloc(sizeof(LISTITEM));
         temp -> data = i;
         temp -> next = listhead;
         listhead = temp;
     }
 
+
     // ausgeben
     temp = listhead;
     while (temp != NULL) {
-        printf("Element: aktuell haben wir %p; nächstes ist %p; Wert ist %d\n", temp, temp -> next, temp -> data);
+        printf("Element: aktuell haben wir temp mit %p; nächstes temp ist %p; Wert von temp ist %d\n", temp, temp -> next, temp -> data);
         temp = temp -> next;
     }
-    
+
+    temp = listhead;
+    printf("temp -> data Grösse: %d\n", sizeof (temp -> data));
+    printf("temp -> next Grösse: %d\n", sizeof (temp -> next));    
+
     return 0;
 }
