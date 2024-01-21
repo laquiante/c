@@ -16,7 +16,12 @@ int main(int argc, char *argv[]){
 
   Einen unbestimmten Zeiger erstellen:
   void *p;
-  zur Verwendung ist er zu casten
+  
+  zur Verwendung ist er zu casten z.B.
+  int Wert = 0;
+  void *gp;
+  ...
+  Wert = *(int*)gp;
 
   Idee für die Namensgebung zum Testen
   im Allgemeinen solltet ihr stattdessen immer "GUTE" Variablennamen verwenden
