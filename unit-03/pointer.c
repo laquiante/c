@@ -22,6 +22,8 @@ int main(int argc, char *argv[]){
   void *gp;
   ...
   Wert = *(int*)gp;
+  und mit chars
+  Wert_char = *(char**)gp;
 
   Idee für die Namensgebung zum Testen
   im Allgemeinen solltet ihr stattdessen immer "GUTE" Variablennamen verwenden
