@@ -11,6 +11,9 @@ int main(int argc, char *argv[]){
   **pprt
   ->value
 
+  Den Zeiger um ein Feldelement versetzten
+  prt += 1;
+
   */
   
   
