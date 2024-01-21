@@ -19,10 +19,12 @@ int main(int argc, char *argv[]){
   zur Verwendung ist er zu casten
 
   Idee für die Namensgebung zum Testen
+  im Allgemeinen solltet ihr stattdessen immer "GUTE" Variablennamen verwenden
   
   pi pointer to int
   pc pointer to char
   pd pointer to double
+  gp generic pointer
 
   */
   
