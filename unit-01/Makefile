@@ -21,7 +21,7 @@ BINS := $(SRCS:%.c=%)
         ${CC} ${LINKERFLAG} $< -o $@
 
 # Das % Zeichen übernimmt den Namen aus ${BINS} 
-# und somit vom ARG
+# und somit vom **ARG
 
 %.o: %.c
         @echo "Objekterstellung"
